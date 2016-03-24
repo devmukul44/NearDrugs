@@ -1,0 +1,11 @@
+<?php
+session_start();
+ob_start();
+?>
+<?php
+	if(!isset($_SESSION['cart']))
+	{
+		$_SESSION['cart']=array(); 
+	}
+	header("location:index.php");
+?>

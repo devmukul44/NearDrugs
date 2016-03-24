@@ -1,0 +1,24 @@
+Pain Killer
+Acne
+Skin Allergy
+Chest Pain
+Headache
+Bandage
+Syringe
+Fever
+Stomach Pain
+Eye Drops
+BURN
+Itching
+Fungal Infection
+Cold
+Chest Pain
+Cotton
+Acidity
+Antiseptic
+Rashes
+Inflammation
+Gloves
+Vomiting
+
+products.php?query=&cat=&lim=16
