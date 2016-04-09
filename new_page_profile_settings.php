@@ -216,17 +216,23 @@ if(isset($_GET['err']))
 					</div>						
 					<div>
 						<label>City
-							<input id="city" type="text" pattern="[a-zA-Z][a-zA-Z\s]*" value="<?php echo $city; ?>" tabindex="7" name="city" required>
+						<!--	<input id="city" type="text" pattern="[a-zA-Z][a-zA-Z\s]*" value="<?php echo $city; ?>" tabindex="7" name="city" required>
+						-->
+						<input id="city" type="text" pattern="[a-zA-Z][a-zA-Z\s]*" value="Vellore" tabindex="7" name="city" disabled>
 						</label>
 					</div>						
 					<div>
 						<label>State
-							<input id="state" pattern="[a-zA-Z][a-zA-Z\s]*" type="text" value="<?php echo $state; ?>" tabindex="7" name="state" required>
+						<!--	<input id="state" pattern="[a-zA-Z][a-zA-Z\s]*" type="text" value="<?php echo $state; ?>" tabindex="7" name="state" required>
+						-->
+							<input id="state" pattern="[a-zA-Z][a-zA-Z\s]*" type="text" value="Tamil Nadu" tabindex="7" name="state" disabled>
 						</label>
 					</div>						
 					<div>
 						<label>Pincode
-							<input id="pincode" type="text" tabindex="7" name="pincode" value="<?php echo $pincode; ?>" maxlength="6" required>
+						<!--	<input id="pincode" type="text" tabindex="7" name="pincode" value="<?php echo $pincode; ?>" maxlength="6" required>
+						-->
+							<input id="pincode" type="text" tabindex="7" name="pincode" value="632014" maxlength="6" disabled>
 						</label>
 					</div>						
 					<div>

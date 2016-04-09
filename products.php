@@ -64,7 +64,7 @@ ob_start();
 		else
 		{
 			$offset = $lim - 16;
-			$sql ="Select * from med_data where Product_Name LIKE '$query' AND cat LIKE '%$cat%' LIMIT 16 OFFSET ".$offset;
+			$sql ="Select * from med_data where Product_Name LIKE '%$query%' AND cat LIKE '%$cat%' LIMIT 16 OFFSET ".$offset;
 		}
 		$result = mysqli_query($conn, $sql);
 		if (mysqli_num_rows($result) > 0) 
