@@ -5,6 +5,18 @@ ob_start();
 <!DOCTYPE HTML>
 <html>
 <head>
+		<meta charset="utf-8" />
+		<meta name="language" content="en-us"/>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		<meta name="description" content="NearDrugs.com | DEVELOPED BY- MUKUL DEV(DEVMUKUL44@GMAIL.COM)" />
+		<meta name="keywords" content="NearDrugs, near drugs, Near Drugs, neardrugs, neardrugs vit, pharmacy, online pharmacy, medicines, online medicines, e commerce, e-commerce,e commerce medicine, e-commerce medicine,e commerce medical, e-commerce medical,e commerce pharmacy, e-commerce pharmacy, NearDrugs VIT, VIT university VELLORE, VIT VELLORE, MUKUL DEV, mukul dev, DEVMUKUL44@GMAIL.COM, MUKUL.DEV@OUTLOOK.COM, mukul.dev2013@vit.ac.in, MUKUL DEV VIT, MUKUL DEV VIT VELLORE, DEVMUKUL44, Web Designing" />
+		<meta name="distribution" content="Global" />
+		<meta name="robots" content="index, follow" />
+		<meta name="revisit-after" content="1 days"/>
+		<meta name="publisher" content="NearDrugs, MUKUL DEV" />
+		<meta name="copyright" content="NearDrugs.com"/>
 <title>NearDrugs | Home</title>
 <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
 <!-- jQuery (necessary JavaScript plugins) -->
@@ -44,7 +56,16 @@ ob_start();
       });
     });
   </script>
-  
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-75502743-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 </head>
 <body>
 <!-- header -->
@@ -53,6 +74,7 @@ ob_start();
 	<?php include("headbottom.php"); ?>
 <!------>
 	<?php include("navbar.php"); ?>
+	
 <!---->
 <!--<div class="content">
 	 
